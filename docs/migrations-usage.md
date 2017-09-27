@@ -6,6 +6,7 @@ Migrations are designed to operate across a code base, without any additional in
 
 ```
 $ git clone https://github.com/hhvm/hhast.git
+$ cd hhast
 $ hhvm composer install
 $ bin/hhast-migrate --help
 Usage: bin/hhast-migrate [OPTIONS] PATH [PATH ...]
